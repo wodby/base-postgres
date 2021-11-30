@@ -53,7 +53,7 @@ RUN set -eux; \
 		libxml2-dev \
 		libxslt-dev \
 		linux-headers \
-		llvm10-dev clang g++ \
+		llvm-dev clang g++ \
 		make \
 		openldap-dev \
 		openssl-dev \
