@@ -18,11 +18,11 @@ This repository is a fork of https://github.com/docker-library/postgres with a f
 
 Supported tags and respective `Dockerfile` links:
 
-* `14.1`, `14`, `latest` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/14/alpine/Dockerfile.wodby)
-* `13.5`, `13` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/13/alpine/Dockerfile.wodby)
-* `12.9`, `12` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/12/alpine/Dockerfile.wodby)
-* `11.14`, `11` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/11/alpine/Dockerfile.wodby)
-* `10.19`, `10` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/10/alpine/Dockerfile.wodby)
+* `14.2`, `14`, `latest` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/14/alpine/Dockerfile.wodby)
+* `13.6`, `13` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/13/alpine/Dockerfile.wodby)
+* `12.10`, `12` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/12/alpine/Dockerfile.wodby)
+* `11.15`, `11` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/11/alpine/Dockerfile.wodby)
+* `10.20`, `10` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/10/alpine/Dockerfile.wodby)
 * `9.6.24`, `9.6`, `9` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/9.6/alpine/Dockerfile.wodby)
 
 All images built for `linux/amd64` and `linux/arm64`
