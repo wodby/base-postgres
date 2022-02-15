@@ -3,7 +3,6 @@
 [![Build Status](https://github.com/wodby/base-postgres/workflows/Build%20docker%20image/badge.svg)](https://github.com/wodby/base-postgres/actions)
 [![Docker Pulls](https://img.shields.io/docker/pulls/wodby/base-postgres.svg)](https://hub.docker.com/r/wodby/base-postgres)
 [![Docker Stars](https://img.shields.io/docker/stars/wodby/base-postgres.svg)](https://hub.docker.com/r/wodby/base-postgres)
-[![Docker Layers](https://images.microbadger.com/badges/image/wodby/base-postgres.svg)](https://microbadger.com/images/wodby/base-postgres)
 
 This repository is a fork of https://github.com/docker-library/postgres with a few changes:
 
@@ -23,6 +22,5 @@ Supported tags and respective `Dockerfile` links:
 * `12.10`, `12` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/12/alpine/Dockerfile.wodby)
 * `11.15`, `11` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/11/alpine/Dockerfile.wodby)
 * `10.20`, `10` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/10/alpine/Dockerfile.wodby)
-* `9.6.24`, `9.6`, `9` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/9.6/alpine/Dockerfile.wodby)
 
 All images built for `linux/amd64` and `linux/arm64`
