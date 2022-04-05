@@ -13,6 +13,7 @@ on:
 env:
   DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
   DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+  BASE_IMAGE_STABILITY_TAG: 2.10.6
 
 jobs:
   postgres-14:
