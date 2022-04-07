@@ -32,7 +32,7 @@ jobs:
     - uses: ./.github/actions
       with:
         version: ${{ env.POSTGRES14 }}
-        tags: 14.2,14,latest
+        tags: 14.2-alpine3.15,14-alpine3.15,14.2,14,alpine3.15,latest
         workdir: 14
         platform: linux/amd64,linux/arm64
         alpine_ver: 3.15
@@ -47,7 +47,7 @@ jobs:
     - uses: ./.github/actions
       with:
         version: ${{ env.POSTGRES13 }}
-        tags: 13.6,13
+        tags: 13.6-alpine3.15,13-alpine3.15,13.6,13
         workdir: 13
         platform: linux/amd64,linux/arm64
         alpine_ver: 3.15
@@ -62,7 +62,7 @@ jobs:
     - uses: ./.github/actions
       with:
         version: ${{ env.POSTGRES12 }}
-        tags: 12.10,12
+        tags: 12.10-alpine3.15,12-alpine3.15,12.10,12
         workdir: 12
         platform: linux/amd64,linux/arm64
         alpine_ver: 3.15
@@ -77,7 +77,7 @@ jobs:
     - uses: ./.github/actions
       with:
         version: ${{ env.POSTGRES11 }}
-        tags: 11.15,11
+        tags: 11.15-alpine3.15,11-alpine3.15,11.15,11
         workdir: 11
         platform: linux/amd64,linux/arm64
         alpine_ver: 3.15
@@ -92,7 +92,7 @@ jobs:
     - uses: ./.github/actions
       with:
         version: ${{ env.POSTGRES10 }}
-        tags: 10.20,10
+        tags: 10.20-alpine3.15,10-alpine3.15,10.20,10
         workdir: 10
         platform: linux/amd64,linux/arm64
         alpine_ver: 3.15

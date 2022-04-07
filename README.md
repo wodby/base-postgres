@@ -17,11 +17,11 @@ This repository is a fork of https://github.com/docker-library/postgres with a f
 
 Supported tags and respective `Dockerfile` links:
 
-* `14.2`, `14`, `latest` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/14/alpine/Dockerfile.wodby)
-* `13.6`, `13` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/13/alpine/Dockerfile.wodby)
-* `12.10`, `12` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/12/alpine/Dockerfile.wodby)
-* `11.15`, `11` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/11/alpine/Dockerfile.wodby)
-* `10.20`, `10` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/10/alpine/Dockerfile.wodby)
+* `14.2-alpine3.15`, `14-alpine3.15`, `14.2`, `14`, `alpine3.15`, `latest` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/14/alpine/Dockerfile.wodby)
+* `13.6-alpine3.15`, `13-alpine3.15`, `13.6`, `13` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/13/alpine/Dockerfile.wodby)
+* `12.10-alpine3.15`, `12-alpine3.15`, `12.10`, `12` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/12/alpine/Dockerfile.wodby)
+* `11.15-alpine3.15`, `11-alpine3.15`, `11.15`, `11` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/11/alpine/Dockerfile.wodby)
+* `10.20-alpine3.15`, `10-alpine3.15`, `10.20`, `10` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/10/alpine/Dockerfile.wodby)
 * `14.2-alpine3.13`, `14-alpine3.13`, `alpine3.13` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/14/alpine/Dockerfile.wodby)
 * `13.6-alpine3.13`, `13-alpine3.13` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/13/alpine/Dockerfile.wodby)
 * `12.10-alpine3.13`, `12-alpine3.13` [_(Dockerfile)_](https://github.com/wodby/base-postgres/tree/master/12/alpine/Dockerfile.wodby)
