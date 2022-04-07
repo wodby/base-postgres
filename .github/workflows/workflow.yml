@@ -14,6 +14,11 @@ env:
   DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
   DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
   BASE_IMAGE_STABILITY_TAG: 2.10.6
+  POSTGRES14: '14.2'
+  POSTGRES13: '13.6'
+  POSTGRES12: '12.10'
+  POSTGRES11: '11.15'
+  POSTGRES10: '10.20'
 
 jobs:
   postgres-14:
@@ -26,7 +31,7 @@ jobs:
     - uses: docker/setup-buildx-action@v1
     - uses: ./.github/actions
       with:
-        version: '14.2'
+        version: ${{ env.POSTGRES14 }}
         tags: 14.2,14,latest
         workdir: 14
         platform: linux/amd64,linux/arm64
@@ -41,7 +46,7 @@ jobs:
     - uses: docker/setup-buildx-action@v1
     - uses: ./.github/actions
       with:
-        version: '13.6'
+        version: ${{ env.POSTGRES13 }}
         tags: 13.6,13
         workdir: 13
         platform: linux/amd64,linux/arm64
@@ -56,7 +61,7 @@ jobs:
     - uses: docker/setup-buildx-action@v1
     - uses: ./.github/actions
       with:
-        version: '12.10'
+        version: ${{ env.POSTGRES12 }}
         tags: 12.10,12
         workdir: 12
         platform: linux/amd64,linux/arm64
@@ -71,7 +76,7 @@ jobs:
     - uses: docker/setup-buildx-action@v1
     - uses: ./.github/actions
       with:
-        version: '11.15'
+        version: ${{ env.POSTGRES11 }}
         tags: 11.15,11
         workdir: 11
         platform: linux/amd64,linux/arm64
@@ -86,7 +91,7 @@ jobs:
     - uses: docker/setup-buildx-action@v1
     - uses: ./.github/actions
       with:
-        version: '10.20'
+        version: ${{ env.POSTGRES10 }}
         tags: 10.20,10
         workdir: 10
         platform: linux/amd64,linux/arm64
@@ -101,7 +106,7 @@ jobs:
     - uses: docker/setup-buildx-action@v1
     - uses: ./.github/actions
       with:
-        version: '14.2'
+        version: ${{ env.POSTGRES14 }}
         tags: 14.2-alpine3.13,14-alpine3.13,alpine3.13
         workdir: 14
         platform: linux/amd64,linux/arm64
@@ -116,7 +121,7 @@ jobs:
     - uses: docker/setup-buildx-action@v1
     - uses: ./.github/actions
       with:
-        version: '13.6'
+        version: ${{ env.POSTGRES13 }}
         tags: 13.6-alpine3.13,13-alpine3.13
         workdir: 13
         platform: linux/amd64,linux/arm64
@@ -131,7 +136,7 @@ jobs:
     - uses: docker/setup-buildx-action@v1
     - uses: ./.github/actions
       with:
-        version: '12.10'
+        version: ${{ env.POSTGRES12 }}
         tags: 12.10-alpine3.13,12-alpine3.13
         workdir: 12
         platform: linux/amd64,linux/arm64
@@ -146,7 +151,7 @@ jobs:
     - uses: docker/setup-buildx-action@v1
     - uses: ./.github/actions
       with:
-        version: '11.15'
+        version: ${{ env.POSTGRES11 }}
         tags: 11.15-alpine3.13,11-alpine3.13
         workdir: 11
         platform: linux/amd64,linux/arm64
@@ -161,7 +166,7 @@ jobs:
     - uses: docker/setup-buildx-action@v1
     - uses: ./.github/actions
       with:
-        version: '10.20'
+        version: ${{ env.POSTGRES10 }}
         tags: 10.20-alpine3.13,10-alpine3.13
         workdir: 10
         platform: linux/amd64,linux/arm64
