@@ -1,7 +1,7 @@
 -include env_make
 
 TAG ?= $(POSTGRES_VER)
-ALPINE_VER ?= 3.13
+ALPINE_VER ?= 3.15
 
 PLATFORM ?= linux/amd64
 
